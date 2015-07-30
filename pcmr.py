@@ -1,3 +1,5 @@
+# encoding=utf8
+
 import os
 rowS, columnS = os.popen('stty size', 'r').read().split()
 row = int(rowS)
