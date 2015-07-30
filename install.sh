@@ -1,5 +1,5 @@
 #!/bin/bash
 echo 'Please make sure you have root privilege, or the script will fail'
-ln -s ./feral /usr/bin/
-chmod +x ./feral
+cp feral /usr/bin/
+chmod +x /usr/bin/feral
 #be nice I don't bash
